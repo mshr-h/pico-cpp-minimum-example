@@ -24,5 +24,8 @@ jobs:
       - name: install tools that are needed for compilation
         run: sudo apt install -y gcc-arm-none-eabi libnewlib-arm-none-eabi 
 
-      - name: Build CMake
-        uses: ashutoshvarma/action-cmake-build@v1
+      - name: Build
+        run: |
+          mkdir build; cd build
+          cmake .. -G Ninja
+          ninja
