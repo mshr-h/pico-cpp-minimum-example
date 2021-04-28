@@ -4,6 +4,12 @@ This is a very basic example for Raspberry Pi Pico.
 
 ## Getting Started (Example for Ubuntu 20.04)
 
+Install CMake and cross compiler.
+
+```bash
+sudo apt install cmake gcc-arm-none-eabi libnewlib-arm-none-eabi
+```
+
 Clone the repository.
 
 ```bash
