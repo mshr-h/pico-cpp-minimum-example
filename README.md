@@ -33,6 +33,8 @@ cmake ..
 make -j`nproc`
 ```
 
+Connect the Pico to the Host PC with pressing the BOOTSEL button.
+
 Copy the binary to Raspberry Pi Pico.
 
 ```bash
