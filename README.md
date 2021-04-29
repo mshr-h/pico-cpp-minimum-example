@@ -26,7 +26,7 @@ cd build
 
 Configure and build it.
 
-If`PICO_SDK_PATH` environment variable isn't set, cmake will automatically download [pico-sdk](https://github.com/raspberrypi/pico-sdk).
+If`PICO_SDK_PATH` environment variable isn't set, cmake will automatically download [pico-sdk](https://github.com/raspberrypi/pico-sdk) to the `build` directory.
 
 ```bash
 cmake ..
